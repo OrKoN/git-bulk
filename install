@@ -1,0 +1,24 @@
+#!/bin/bash
+
+pwd=`pwd`
+
+rm -rf /usr/local/bin/gb-commit
+ln -s $pwd/commit.sh /usr/local/bin/gb-commit
+chmod a+x $pwd/commit.sh
+
+rm -rf /usr/local/bin/gb-clone
+ln -s $pwd/clone.sh /usr/local/bin/gb-clone
+chmod a+x $pwd/clone.sh
+
+rm -rf /usr/local/bin/gb-update
+ln -s $pwd/update.sh /usr/local/bin/gb-update
+chmod a+x $pwd/update.sh
+
+rm -rf /usr/local/bin/gb-untag
+ln -s $pwd/untag.sh /usr/local/bin/gb-untag
+chmod a+x $pwd/untag.sh
+
+rm -rf /usr/local/bin/gb-tag
+ln -s $pwd/tag.sh /usr/local/bin/gb-tag
+chmod a+x $pwd/tag.sh
+
