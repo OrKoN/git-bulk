@@ -5,7 +5,7 @@
 # License: Beerware and Postcard License v2.1
 
 # the github organization to fetch all repositories for
-GITHUB_ORGANIZATION=$2
+GITHUB_ORGANIZATION=$1
 
 # the git clone cmd used for cloning each repository
 # the parameter recursive is used to clone submodules, too.
