@@ -23,4 +23,4 @@ Usage
 
 `gb-untag tagName`	- removes tag and the remove tag branch
 
-`gb-untag orgName`	- clones all repos of the organisation orgName
+`gb-clone orgName`	- clones all repos of the organisation orgName
