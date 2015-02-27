@@ -4,7 +4,7 @@ Bulk Git Commands
 Installation
 ============
 
-git clone 
+git clone
 
 cd git-bulk
 
@@ -17,7 +17,7 @@ Usage
 
 `gb-update` 		- pull all repositories in the subfolder
 
-`gb-commit` 		- commit and push to master branch
+`gb-commit [Message]` 		- commit and push to master branch. Message is optional. Default is "Minor Update".
 
 `gb-tag tagName`    	- tags and push to the tag branch
 
